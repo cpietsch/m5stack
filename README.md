@@ -6,6 +6,30 @@ UIFlow2 Projects
 
 ## Overview
 This script is designed to interface with an M5Stack device and an Encoder8Unit module via I2C. It continuously monitors encoder values and button presses and provides visual feedback by briefly lighting up the corresponding LED when a change is detected.
+Test it with https://webserial.io/
+
+## Serial Output
+```
+v6:-2␍␊
+v6:-1␍␊
+v6:-2␍␊
+v6:-1␍␊
+v6:-2␍␊
+v6:0␍␊
+v6:1␍␊
+v6:0␍␊
+v6:1␍␊
+v6:2␍␊
+v6:0␍␊
+v6:1␍␊
+v6:0␍␊
+v8:-1␍␊
+v8:0␍␊
+v8:-2␍␊
+v8:0␍␊
+s:1␍␊
+s:0␍␊
+```
 
 ## Features
 - Reads incremental values from 8 rotary encoders.
